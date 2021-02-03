@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>au.gov.digitalhealth</groupId>
-    <artifactId>cda-schema-v2.1</artifactId>
+    <artifactId>cda-schema</artifactId>
     <version>2.1.1-SNAPSHOT</version>
     <name>CDA Schema</name>
-    <description>Java classes for HL7 XML checking</description>
+    <description>Java classes for HL7 XML generation and checking</description>
     <url>https://github.com/AuDigitalHealth/cda-schema-java</url>
 
     <developers>
