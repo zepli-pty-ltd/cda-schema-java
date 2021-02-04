@@ -1,7 +1,9 @@
+Comments for maintainers
+========================
+
 Generating classes from XSD files
 ---------------------------------
 Note: this did not work reliably, but below is what worked at one stage.
-
 
 
 -- Steps --
@@ -17,8 +19,7 @@ Successful XJC command:
 
 Note that this omitted EXTENSION.xsd, which caused all sorts of problems with the HL7 namespace.
 
-The xsd files were in a xsd_java_mods folder and the other folders were created there. The binding file allowed creation of classes without clashing names.
-
+The xsd files were originally in a xsd_java_mods folder and the other folders were created there. The binding file allowed creation of classes without clashing names.
 
 
 
@@ -29,7 +30,7 @@ and au\net\electronichealth\ns\ci\cda\extensions\_3 (26 items)
 
 The only ones we retained were the ones in the au.net.electronichealth.ns package structure.
 
-Due to a change in JAXB, in ED.java you need to change:
+Due to a change in JAXB, in the file "ED.java" you need to change:
 import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf;
                    --------
 to
