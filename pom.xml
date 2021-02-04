@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>au.gov.digitalhealth</groupId>
     <artifactId>cda-schema</artifactId>
-    <version>2.1.1-SNAPSHOT</version>
+    <version>2.1.1</version>
     <name>CDA Schema</name>
     <description>Java classes for HL7 XML generation and checking</description>
     <url>https://github.com/AuDigitalHealth/cda-schema-java</url>
@@ -40,7 +38,7 @@
             scm:git:https://github.com/AuDigitalHealth/cda-schema-java.git
         </developerConnection>
         <url>https://github.com/AuDigitalHealth/cda-schema-java.git</url>
-        <tag>HEAD</tag>
+        <tag>cda-schema-2.1.1</tag>
     </scm>
 
     <distributionManagement>
