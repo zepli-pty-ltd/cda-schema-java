@@ -8,9 +8,9 @@
 
 package au.net.electronichealth.ns.ci.cda.extensions._3;
 
-import javax.xml.bind.JAXBElement;
-import javax.xml.bind.annotation.XmlElementDecl;
-import javax.xml.bind.annotation.XmlRegistry;
+import jakarta.xml.bind.JAXBElement;
+import jakarta.xml.bind.annotation.XmlElementDecl;
+import jakarta.xml.bind.annotation.XmlRegistry;
 import javax.xml.namespace.QName;
 import au.net.electronichealth.ns.cda._2_0.AD;
 import au.net.electronichealth.ns.cda._2_0.BL;

@@ -5,5 +5,5 @@
 // Generated on: 2021.02.03 at 09:15:32 AM AEST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package au.net.electronichealth.ns.ci.cda.extensions._3;
